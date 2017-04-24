@@ -1,0 +1,118 @@
+/* ===================== GENERAL ============================== */
+* {
+	font-family: arial, sans-ms;
+}
+
+#main-wrapper {
+	width: 1020px;
+	margin: auto;
+}
+
+
+#logo, section h1+h2 {
+	display: inline-block;
+}
+
+
+/* ===================== HEADER ============================== */
+
+header nav  {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+
+header nav div {
+	display: inline;
+	margin: 10px;
+	padding: 5px;
+}
+
+#logo img {
+	width: 40px;
+	height: 40px;
+}
+
+#logo, section h1+h2  {
+	align-items: left;
+}
+
+
+/* ===================== SECTION ============================== */
+section h1 {
+	color: red;
+
+}
+
+section h1+h2 {
+	margin: 0;
+}
+
+
+#title {
+	width: 300px;
+
+}
+
+#recherche, nav {
+	display: flex;
+}
+
+
+#recherche, #recherche div {
+	border: lightgrey solid 0.5px;
+}
+
+#recherche {
+	border-radius: 5px;
+}
+
+#recherche div {
+	width: 33.33%;
+	padding: 5px;
+}
+
+#recherche div div {
+	border: none;
+}
+
+nav.secondary {
+	margin-top: 40px;
+	border-bottom: lightgrey solid 0.5px;
+}
+
+nav div{
+	padding: 10px;
+
+}
+
+.select {
+	color: DarkCyan;
+	border-bottom: DarkCyan solid 0.5px;
+}
+
+.form {
+	display:inline-block;
+}
+
+
+
+.form:nth-of-type(2)  {
+	background-color: red;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+
+
+
+/* ===================== MAIN ============================== */
+
+
+
+
+/* ===================== FOOTER ============================== */
+
+
+

@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html>
 
 <head>
     <meta charset="UTF-8"/>
     <title>AirBnB - Accueil</title>
     <meta name="author" content="Renaud BERNARD"/>
     <meta name="keywords" content=""/>
-    <link rel=”stylesheet” media=”screen and (max-width: 320px)” href=”styleSP.css />
-    <link rel=”stylesheet” media=”screen and (max-width: 1280px)” href=”styleTB.css /> 
-    <link rel=”stylesheet” href=”style.css” />
+    <link rel="stylesheet" media="(max-width: 320px)" href="styleSP.css" />
+    <link rel="stylesheet" media="(max-width: 1280px)" href="styleTB.css" /> 
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 <header>
-<div id="logo"></div>
-<h1>Airbnb Réservez des logements uniques et vivez là-bas comme des locaux.</h1>
-
+	<div id="logo"><img src="img/logo.svg"/></div>
+	<nav>
+		<div>Devenez hôte</div>
+		<div>Help</div>
+		<div>Inscription</div>
+		<div>Connexion</div>
+	</nav>
+</header>
+<div id="main-wrapper">
+<section>
+	<div id="title">
+		<h1>Où souhaitez-vous aller ?</h1>
+		<h2>Votre prochaine aventure commence sur Airbnb</h2>
+	</div>
 <!-- ######### RECHERCHES ######### -->
 <div id="recherche">
-	<div>Partout</div>
-	<div>Dates indifférentes</div>
-	<div>1 voyageur</div>
+	<div>
+		<p>Où<p>
+		<p>Partout</p>
+	</div>
+	<div>
+		<p>Quand</p>
+		<p>Dates indifférentes</p>
+	</div>
+	<div>
+		<div class="form">
+			<p>Voyagueurs</p>
+			<p>1 voyageur</p>
+		</div>
+		<div class="form">
+			<div class="boutton">Rechercher</div>
+		</div>
+	</div>
 </div>
 
 <!-- ######### NAVIGATION ######### -->
-<nav>
-	<div>RECOMMANDÉ</div>
+<nav class="secondary">
+	<div class="select">RECOMMANDÉ</div>
 	<div>LOGEMENTS</div>
 	<div>EXPÉRIENCES</div>
 	<div>LIEUX</div>
 </nav>
-</header>
+</section>
 
 
 <!-- ######### BLOC1 ######### -->
@@ -39,28 +64,28 @@
 <section>
 	<h2>Réservées à l'instant</h2>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
@@ -77,28 +102,28 @@
 	<h2>Expériences</h2>
 	<p>Plus</p>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
 		</div>
 	</div>
 	<div>
-		<img src="img/195-290.png" alt="Photo promotionnelle d'illustration">
+		<img src="img/195-360.png" alt="Photo promotionnelle d'illustration">
 		<div>
 			<p><strong>00€</strong> Lorem ipsum dolor sit amet</p>
 			<p>* * * * * 00 commentaires</p>
@@ -216,13 +241,15 @@
 	</section>
 
 
+
 </footer>
 
-
+</div>
 
 
 
 
 
 </body>
+</html>
 
