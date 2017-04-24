@@ -54,7 +54,7 @@ section h1+h2 {
 
 }
 
-#recherche, nav {
+#recherche, nav, .blocks  {
 	display: flex;
 }
 
@@ -99,6 +99,7 @@ nav div{
 
 .form:nth-of-type(2)  {
 	background-color: red;
+	color: white;
 	border-radius: 5px;
 	padding: 15px;
 }
@@ -109,8 +110,27 @@ nav div{
 
 /* ===================== MAIN ============================== */
 
+/* ######### BLOC1 ######### */
+.blocks {
+	flex-flow: 'flex-direction' 'flex-wrap';
+	padding: 10px;
+	position: relative;
+}
+.blocks img+p {
+	margin: auto;
+}
 
+section > p {
+	text-align: right;
+}
 
+.blocRevenus {
+	width: 50%;
+}
+
+div#revenus {
+	padding: 10px;
+}
 
 /* ===================== FOOTER ============================== */
 
