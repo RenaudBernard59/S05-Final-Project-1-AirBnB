@@ -1,3 +1,8 @@
+@media screen and (min-width: 1280px)
+{
+
+
+
 /* ===================== GENERAL ============================== */
 * {
 	font-family: arial, sans-ms;
@@ -145,3 +150,4 @@ div#revenus {
 	width: 150%;
 }
 
+}
