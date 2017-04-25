@@ -59,7 +59,7 @@ section h1+h2 {
 }
 
 
-#recherche, #recherche div {
+#recherche, #recherche div, .choose {
 	border: lightgrey solid 0.5px;
 }
 
@@ -112,12 +112,14 @@ nav div{
 
 /* ######### BLOC1 ######### */
 .blocks {
-	flex-flow: 'flex-direction' 'flex-wrap';
+	flex-flow: row nowrap;
 	padding: 10px;
 	position: relative;
+	justify-content: space-between;
+	align-items: center;
 }
 .blocks img+p {
-	margin: auto;
+	
 }
 
 section > p {
@@ -130,9 +132,16 @@ section > p {
 
 div#revenus {
 	padding: 10px;
+	background-color: DarkCyan;
+	border-radius: 5px;
+	width: 150px;
 }
 
 /* ===================== FOOTER ============================== */
 
-
+.choose {
+	padding: 15px;
+	color: lightGrey;
+	width: 150%;
+}
 
