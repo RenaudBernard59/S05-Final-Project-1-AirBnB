@@ -37,10 +37,6 @@ header nav div {
 	height: 40px;
 }
 
-#logo, section h1+h2  {
-	align-items: left;
-}
-
 
 /* ===================== SECTION ============================== */
 section h1 {
@@ -58,7 +54,7 @@ section h1+h2 {
 
 }
 
-#recherche, nav, .blocks  {
+#recherche, nav, .blocks, .plus  {
 	display: flex;
 }
 
@@ -124,10 +120,11 @@ div.respons {
 	align-items: center;
 }
 
-
-section > p {
-	text-align: right;
+div.plus {
+	justify-content: space-between;
+	flex-flow: nowrap;
 }
+
 
 .bigBocRevenus {
 	flex-wrap: wrap;
