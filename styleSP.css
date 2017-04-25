@@ -1,0 +1,162 @@
+@media screen and (max-width: 350px)
+{
+
+
+/* ===================== GENERAL ============================== */
+* {
+	font-family: arial, sans-ms;
+}
+
+#main-wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+
+#logo, section h1+h2 {
+	display: inline-block;
+}
+
+
+/* ===================== HEADER ============================== */
+
+header nav  {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+
+header nav div {
+	display: inline;
+	margin: 10px;
+	padding: 5px;
+}
+
+#logo img {
+	width: 40px;
+	height: 40px;
+}
+
+#logo, section h1+h2  {
+	align-items: left;
+}
+
+
+/* ===================== SECTION ============================== */
+section h1 {
+	color: red;
+
+}
+
+section h1+h2 {
+	margin: 0;
+}
+
+
+#title {
+	width: 300px;
+
+}
+
+#recherche, nav, .blocks  {
+	display: flex;
+}
+
+
+#recherche {
+	border: lightgrey solid 0.5px;
+	border-radius: 20px;
+
+}
+
+
+#recherche p, #recherche div {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	white-space:nowrap;
+
+
+}
+
+
+nav.secondary {
+	margin-top: 40px;
+	border-bottom: lightgrey solid 0.5px;
+}
+
+nav div{
+	padding: 10px;
+
+}
+
+.select {
+	color: DarkCyan;
+	border-bottom: DarkCyan solid 0.5px;
+}
+
+
+.form:nth-of-type(2) {
+	display: none;
+}
+
+
+
+p.respons {
+	display: none;
+}
+
+
+div.respons {
+	display: none;
+}
+
+
+
+/* ===================== MAIN ============================== */
+
+/* ######### BLOC1 ######### */
+.blocks {
+	flex-flow: row nowrap;
+	padding: 10px;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+section > p {
+	text-align: right;
+}
+
+.bigBocRevenus {
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+}
+
+.blocRevenus {
+	width: 50%;
+}
+
+div#revenus {
+	padding: 10px;
+	background-color: DarkCyan;
+	border-radius: 5px;
+	width: 150px;
+}
+
+/* ===================== FOOTER ============================== */
+
+.choose {
+	border: lightgrey solid 0.5px;
+	padding: 15px;
+	color: lightGrey;
+	width: 150%;
+}
+
+section.footLists {
+	display: none;
+}
+
+
+}
